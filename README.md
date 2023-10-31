@@ -1,5 +1,3 @@
-# Data-Warehouse-for-Fudge-Corporation
-Data Warehouse Project
 
 # DataWarehouse and Business Intelligence reporting for Fudgemart-Fudgeflix
 Built a data warehouse and ETL project for fictional clients Fudgemart and Fudgeflix
