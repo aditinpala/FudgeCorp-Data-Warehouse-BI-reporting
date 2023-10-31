@@ -1,20 +1,21 @@
-# FudgeCorp:Data-Warehouse-BI-reporting
+# Data-Warehouse-for-Fudge-Corporation
+Data Warehouse Project
 
-**Fudge Corporation's Data Warehouse Initiative**
+# DataWarehouse and Business Intelligence reporting for Fudgemart-Fudgeflix
+Built a data warehouse and ETL project for fictional clients Fudgemart and Fudgeflix
 
-Data warehousing and business intelligence reporting project for Fudgemart-Fudgeflix, akin to Walmart and Fudgeflix, fictional clients facing sales challenges. The project's primary objective is to dissect their sales data to uncover trends and patterns.
+# Goal of the project
+Fudgemart and Fudgeflix are two fictional clients which are similar to Walmart and Fudgeflix. They have been experiencing a decline in sales so the end goal will be to analyze the sales for them to identify trends or patterns in their sales. The project utilizes SSIS for the ETL process where the data is extracted from the database, transformed where all the data is made into a conistent format and then loaded into a data warehouse. After the ETL process, I have used Power BI to design dashboards for Fudge Corporation and provide actionable insights to the team. The steps involved in the project are as follows:
 
-**Key Project Steps:**
+1. Project Charter for defining the project
+2. Data Profiling for understanding the data
+3. High-Level Dimensional Modeling
+4. Detailed Dimension Modeling
+5. ROLAP Bus Architecture in MS SQL Server
+6. ETL process (Extract, Transform, Load in SSIS)
+7. Using MOLAP cubes for creating dashboards in Power BI
 
-1. Project Charter Definition
-2. Data Profiling and Analysis
-3. High-Level and Detailed Dimensional Modeling
-4. ROLAP Bus Architecture in MS SQL Server
-5. ETL Process using SSIS (Extract, Transform, Load)
-6. MOLAP Cube Implementation for Power BI Dashboards
+# Technologies and Concepts
+Technologies: SQL, SSIS, SSAS, SSRS, MS Power BI, MS SQL Server, MS Excel
 
-**Technologies and Concepts:**
-1. Technologies: SQL, SSIS, SSAS, SSRS, MS Power BI, MS SQL Server, MS Excel
-2. Concepts: ETL, Inmon-Kimball Methodology, Star/Snowflake Schema, BI Reporting, SQL Query Optimization, MOLAP Cubes, Dashboarding, and Reporting
-   
-This project focuses on addressing the sales decline by utilizing data warehousing, ETL processes, and Power BI dashboards to provide actionable insights to Fudgemart-Fudgeflix.
+Concepts: ETL, Inmom-Kimball, Star/Snowflake schema, BI reporting, SQL Query Optimization, MOLAP cubes, Dashboarding and reporting
